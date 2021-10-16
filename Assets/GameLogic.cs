@@ -52,7 +52,7 @@ public class GameLogic : MonoBehaviour
     [SerializeField] private Text _statisticsText;
 
     private Color _fullColor = new Color(255, 255, 255, 255);
-    private Color _transparentColor = new Color(255, 255, 255, 100);
+    private Color _transparentColor = new Color(255, 255, 255, 0.3f);
     
     private float _previousWaveTime;
     private float _previousFarmTime;
